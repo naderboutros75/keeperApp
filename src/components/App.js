@@ -47,7 +47,7 @@ function App() {
   function deleteNote(id) {
     // Send a DELETE request to the server to delete the note
     axios
-      .delete(`http://localhost:4000/delete-note/${id}`) // Change the endpoint as per your backend setup
+      .delete(`${apiUrl}delete-note/${id}`) // Change the endpoint as per your backend setup
       .then(() => {
         setNotes((prevNotes) =>
           prevNotes.filter((noteItem) => noteItem._id !== id)
