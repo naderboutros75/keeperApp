@@ -80,7 +80,7 @@ form.create-note {
   background: #fff;
   padding: 15px;
   border-radius: 7px;
-  box-shadow: 0 2px 5px rgb(138, 137, 137);
+  box-shadow: 0 2px 5px rgb(60, 60, 60);
 }
 
 form.create-note input,
