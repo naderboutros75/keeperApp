@@ -68,7 +68,7 @@ function App() {
             key={noteItem._id} // Use _id as the unique identifier
             id={noteItem._id} // Pass _id as id prop
             title={noteItem.title}
-            content={noteItem.content.slice(0, 25)}
+            content={noteItem.content}
             onDelete={deleteNote}
           />
         );
